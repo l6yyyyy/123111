@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- 电影 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_movies"
+                android:textSize="24sp"
+                android:textColor="@color/colorOnBackground"
+                android:layout_marginBottom="16dp" />
+
+            <RecyclerView
+                android:id="@+id/movie_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <!-- 电视剧 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_tv_shows"
+                android:textSize="24sp"
+                android:textColor="@color/colorOnBackground"
+                android:layout_marginBottom="16dp" />
+
+            <RecyclerView
+                android:id="@+id/tv_show_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <!-- 综艺 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_variety"
+                android:textSize="24sp"
+                android:textColor="@color/colorOnBackground"
+                android:layout_marginBottom="16dp" />
+
+            <RecyclerView
+                android:id="@+id/variety_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <!-- 动漫 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_anime"
+                android:textSize="24sp"
+                android:textColor="@color/colorOnBackground"
+                android:layout_marginBottom="16dp" />
+
+            <RecyclerView
+                android:id="@+id/anime_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

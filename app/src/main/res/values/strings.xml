@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TVBox Emby</string>
+    <string name="title_movies">电影</string>
+    <string name="title_tv_shows">电视剧</string>
+    <string name="title_variety">综艺</string>
+    <string name="title_anime">动漫</string>
+    <string name="title_live">直播</string>
+    <string name="label_year">年份</string>
+    <string name="label_rating">评分</string>
+    <string name="label_genres">类型</string>
+    <string name="label_director">导演</string>
+    <string name="label_actors">演员</string>
+    <string name="label_description">剧情简介</string>
+    <string name="button_play">播放</string>
+    <string name="button_collect">收藏</string>
+    <string name="button_download">下载</string>
+    <string name="loading">加载中...</string>
+    <string name="network_error">网络错误</string>
+    <string name="no_data">暂无数据</string>
+</resources>
